@@ -17,7 +17,7 @@ app = Flask(__name__)
 CORS(app)
 #***************************************************************************************************************
 
-# Customer API
+# API for Customer 
 
 # Get all customers
 @app.route('/customers', methods=['GET'])
